@@ -1,10 +1,14 @@
 <div align="center">
 
-# Hey, I'm Dawar Azhar 👋
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Hey%2C+I'm+Dawar+Azhar+%F0%9F%91%8B;Python+%7C+AI+Agents+%7C+Automation;7%2B+Years+Building+Production+Systems" alt="Typing SVG" />
 
-### Python Automation Engineer · AI Agent Builder · Data Engineer
+### Senior Python Engineer · AI Agent Architect · Automation Specialist
 
-*Building intelligent, production-grade autonomous systems that solve real-world problems*
+<br/>
+
+*I build autonomous AI systems, scalable data pipelines, and production-grade automation — not prototypes.*
+
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dawarazhar/)
 [![OhmFrame AI](https://img.shields.io/badge/OhmFrame_AI-FF6B00?style=for-the-badge&logo=rocket&logoColor=white)](https://ohmframe.com)
@@ -15,59 +19,91 @@
 
 ---
 
-## 🚀 About Me
+## 🧠 What I Do
 
-I'm a **Python Automation & AI Engineer** with 7+ years of industry experience, specializing in building autonomous agents, scalable data pipelines, and production-grade AI systems.
+```python
+class DawarAzhar:
+    role = "Senior Python & AI Engineer"
+    experience = "7+ years"
+    company = "OhmFrame AI (Founder)"
 
-- 🏗️ **Founder** of [OhmFrame AI](https://ohmframe.com) — a live SaaS platform offering autonomous AI agents
-- 🤖 Building intelligent automation using **Python, LLMs, browser automation, and computer vision**
-- 🎯 Focused on **AI-powered workflows**, ETL pipelines, and cloud-based data architectures
-- 📍 Based in **Lahore, Pakistan**
+    skills = {
+        "ai_agents":     ["LangChain", "CrewAI", "OpenAI", "Claude", "RAG Pipelines"],
+        "automation":    ["Selenium", "Playwright", "Airflow", "Celery", "Scrapy"],
+        "data_eng":      ["ETL/ELT", "dbt", "Snowflake", "PostgreSQL", "MongoDB"],
+        "cv_ml":         ["YOLOv8", "OpenCV", "TensorRT", "Edge AI"],
+        "cloud_devops":  ["AWS", "Docker", "REST APIs", "CI/CD", "MQTT"],
+    }
+
+    def current_focus(self):
+        return "Building autonomous AI agents that replace manual workflows at scale"
+```
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 About Me
+
+I'm a **Senior Python Engineer** with **7+ years** of hands-on experience shipping production systems across **AI, automation, and data engineering**.
+
+I don't just build demos — I build things that run 24/7 in production, handle real users, and deliver measurable business value.
+
+- 🏗️ **Founded [OhmFrame AI](https://ohmframe.com)** — a live SaaS platform where autonomous AI agents handle engineering workflows end-to-end
+- 🤖 **AI Agent Architect** — designing multi-agent systems with LangChain, CrewAI, OpenAI, and Claude APIs
+- ⚡ **Automation Engineer** — browser automation, web scraping, and workflow orchestration at scale
+- 📊 **Data Engineer** — ETL/ELT pipelines, data warehousing, and real-time data architectures
+- 👁️ **Computer Vision** — deployed edge AI systems on NVIDIA Jetson running at production FPS
+- 📍 Based in **Lahore, Pakistan** · Open to **remote opportunities worldwide**
+
+---
+
+## 🛠️ Core Tech Stack
 
 <div align="center">
 
-**Languages & Frameworks**
+**Python & Core**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**AI / ML / Computer Vision**
+**AI Agents & LLMs**
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logo=yolo&logoColor=black)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Claude_API-D4A574?style=for-the-badge&logo=anthropic&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-FF4444?style=for-the-badge&logo=robot&logoColor=white)
 
-**Automation & Scraping**
+**Computer Vision & ML**
 
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
-**Cloud & Infrastructure**
+**Automation & Orchestration**
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=eclipsemosquitto&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
 
-**Databases**
+**Cloud & DevOps**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-**Hardware & Embedded**
+**Data & Databases**
 
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
-![NVIDIA Jetson](https://img.shields.io/badge/Jetson_Nano-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+**Edge & Embedded**
+
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![NVIDIA Jetson](https://img.shields.io/badge/Jetson_Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
 </div>
 
@@ -75,12 +111,25 @@ I'm a **Python Automation & AI Engineer** with 7+ years of industry experience, 
 
 ## 📌 Featured Projects
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| 🧠 **[OhmFrame AI](https://ohmframe.com)** | Live SaaS platform with autonomous AI agents for engineering workflows | Python, LLMs, REST APIs, Docker |
-| 🛒 **Bolee** | AI-powered classifieds marketplace for Pakistan with trilingual NLP search & real-time auctions | Python, NLP, Competitive Pricing Engine |
-| 🚗 **GoViz** | Embedded collision detection system running on edge devices at 10-15 FPS | YOLOv8, OpenCV, TensorRT, Jetson Nano |
-| ⚡ **Data Pipelines** | Scalable ETL/ELT workflows with scheduling, validation, and monitoring | Airflow, dbt, PostgreSQL, Snowflake |
+### 🧠 [OhmFrame AI](https://ohmframe.com) — Autonomous AI Agent Platform
+> **Live SaaS product** with multi-agent AI systems that automate complex engineering workflows end-to-end.
+>
+> `Python` `LangChain` `OpenAI` `REST APIs` `Docker` `PostgreSQL`
+
+### 🛒 Bolee — AI-Powered Classifieds Marketplace
+> Built a full classifieds platform for Pakistan featuring **trilingual NLP search** (Urdu, English, Roman Urdu), real-time auction engine, and AI-driven competitive pricing.
+>
+> `Python` `NLP` `FastAPI` `PostgreSQL` `Competitive Pricing Engine`
+
+### 🚗 GoViz — Edge AI Collision Detection
+> Real-time collision detection system deployed on **NVIDIA Jetson Nano** running at **10-15 FPS** in production environments.
+>
+> `YOLOv8` `OpenCV` `TensorRT` `Jetson Nano` `MQTT`
+
+### ⚡ Enterprise Data Pipelines
+> Designed and deployed scalable **ETL/ELT architectures** with automated scheduling, data validation, monitoring, and alerting.
+>
+> `Airflow` `dbt` `PostgreSQL` `Snowflake` `AWS`
 
 ---
 
@@ -88,33 +137,64 @@ I'm a **Python Automation & AI Engineer** with 7+ years of industry experience, 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=dawarazhar11&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=dawarazhar11&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117" alt="GitHub Stats" height="170"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dawarazhar11&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dawarazhar11&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" height="170"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dawarazhar11&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="170"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=dawarazhar11&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" height="170"/>
 
 </div>
 
 ---
 
-## 🏆 Highlights
+## 🏆 Career Highlights
 
-- **95+ repositories** on GitHub with **364+ stars** earned
-- **Production AI systems** deployed on cloud and edge hardware
-- **Full-stack builder** — from embedded devices to SaaS platforms
-- **7+ years** of industry experience in automation and systems engineering
+<table>
+<tr>
+<td width="50%">
+
+**Engineering**
+- 🏗️ Founded & built **OhmFrame AI** — a live SaaS platform
+- 🤖 Architected multi-agent AI systems in production
+- 👁️ Deployed real-time CV models on edge hardware
+- ⚡ Built ETL pipelines processing millions of records
+
+</td>
+<td width="50%">
+
+**Impact**
+- 📦 **95+ repositories** on GitHub
+- ⭐ **364+ stars** earned across projects
+- 🌍 **7+ years** shipping production systems
+- 🔧 Full-stack — from Jetson Nano to cloud SaaS
+
+</td>
+</tr>
+</table>
 
 ---
 
 <div align="center">
 
+### 💼 Open to Opportunities
+
+**I'm actively looking for roles in AI Engineering, Python Automation, and Data Engineering.**
+
+If you're building something ambitious with Python, LLMs, or automation — let's talk.
+
+<br/>
+
+[![Hire Me](https://img.shields.io/badge/Hire_Me-Let's_Talk-6C63FF?style=for-the-badge)](mailto:dawarazhar11@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dawarazhar/)
+
+<br/>
+
 *"I build systems that work in the real world, not just in notebooks."*
 
-**💬 Open to collaborations on AI automation, data engineering, and autonomous agent projects.**
+<br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=dawarazhar11&color=blueviolet&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=dawarazhar11&color=6C63FF&style=flat-square&label=Profile+Views)
 
 </div>
