@@ -96,6 +96,15 @@ I don't wrap APIs — I design, build, and deploy them from scratch. FastAPI bac
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
 
+**API Development**
+
+![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge&logo=auth0&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Webhooks](https://img.shields.io/badge/Webhooks-6C63FF?style=for-the-badge&logo=webhook&logoColor=white)
+![asyncio](https://img.shields.io/badge/asyncio-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
 **AI Agents & LLMs**
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
@@ -147,7 +156,7 @@ I don't wrap APIs — I design, build, and deploy them from scratch. FastAPI bac
 <img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
 
 ### 🧠 [OhmFrame AI](https://ohmframe.com) — Engineering AI Platform `LIVE`
-> Full-stack AI-powered engineering platform serving hardware startups (EV chargers, battery systems, datacenter power). **5 production autonomous agents** built on **Claude API**: FMEA Generator (auto-generates failure modes with severity/occurrence/detection ratings), DFM Analyzer (real-time manufacturability feedback), FAIR Inspection Agent (ArUco + OpenCV, ±1mm accuracy), YOLO CV Detection pipeline (Blender → PyTorch → CoreML → iOS), and OhmFrame Copilot desktop agent (Tauri + Rust). Additional AI tools include technical diagram generation, tolerance stackup analysis, GD&T advisor, material selector, cost estimation, and patent search.
+> Full-stack AI-powered engineering platform serving hardware startups (EV chargers, battery systems, datacenter power). **5 production autonomous agents** built on **Claude API**: FMEA Generator (auto-generates failure modes with severity/occurrence/detection ratings), DFM Analyzer (real-time manufacturability feedback), FAIR Inspection Agent (ArUco + OpenCV, ±1mm accuracy), YOLO CV Detection pipeline (Blender → PyTorch → CoreML → iOS), and OhmFrame Copilot desktop agent (Tauri + Rust). Additional AI tools include technical diagram generation, tolerance stackup analysis, GDT advisor, material selector, cost estimation, and patent search.
 
 ```mermaid
 graph LR
@@ -162,7 +171,7 @@ graph LR
     E --> I
     F --> I
     C --> P["Diagram Generator"]
-    C --> Q["GD&T / Tolerance"]
+    C --> Q["GDT / Tolerance"]
     C --> R["Cost Estimator"]
     P --> I
     Q --> I
@@ -184,13 +193,13 @@ graph LR
 ```mermaid
 graph LR
     A["Document Upload"] --> B["Next.js Frontend"]
-    B <--> C["FastAPI Backend"]
+    B --> C["FastAPI Backend"]
     C --> D["CrewAI Pipeline"]
     D --> E["Data Retrieval Agent"]
     D --> F["Source Citer Agent"]
     D --> G["Conflicts Specialist"]
     D --> H["Report Generator"]
-    E <--> I[("Qdrant Vector DB")]
+    E --> I[("Qdrant Vector DB")]
     E --> J["LM Studio / Ollama"]
     F --> J
     G --> J
@@ -216,8 +225,8 @@ graph LR
     E --> H["Ollama Local LLM"]
     F --> H
     G --> H
-    C <--> I[("ChromaDB")]
-    C <--> J[("Qdrant")]
+    C --> I[("ChromaDB")]
+    C --> J[("Qdrant")]
     C --> K["OpenSerp Web Search"]
     L["Nginx Proxy"] --> B
     L --> C
@@ -236,7 +245,7 @@ graph LR
     B --> C["GPT-3 / Claude"]
     C --> D["Intent Parser"]
     D --> E["SolidWorks COM API"]
-    C <--> F[("Qdrant / Nomic")]
+    C --> F[("Qdrant / Nomic")]
     E --> G["3D Model Output"]
     D --> H["Rust Desktop UI"]
 ```
@@ -455,7 +464,7 @@ graph LR
     B --> C["View Projection Engine"]
     C --> D["Front / Top / Side Views"]
     D --> E["AI Dimension Placement"]
-    E --> F["GD&T Annotation"]
+    E --> F["GDT Annotation"]
     F --> G["Manufacturing-Ready Drawing"]
 ```
 
