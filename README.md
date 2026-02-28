@@ -2,11 +2,11 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Hey%2C+I'm+Dawar+Azhar+%F0%9F%91%8B;Python+%7C+AI+Agents+%7C+Automation;7%2B+Years+Building+Production+Systems" alt="Typing SVG" />
 
-### Senior Python Engineer · AI Agent Architect · Automation Specialist
+### Senior Python Engineer · AI Agent Architect · API Developer · Automation Specialist
 
 <br/>
 
-*I build autonomous AI systems, scalable data pipelines, and production-grade automation — not prototypes.*
+*I design APIs, architect multi-agent systems, and deploy production automation — not wrappers, not prototypes.*
 
 <br/>
 
@@ -23,17 +23,35 @@
 
 ```python
 class DawarAzhar:
-    role = "Senior Python & AI Engineer"
-    experience = "7+ years"
-    company = "OhmFrame AI (Founder)"
+    role     = "Senior Python & AI Engineer"
+    exp      = "7+ years"
+    company  = "OhmFrame AI (Founder)"
+    edu      = "MS Manufacturing Engineering — UET Lahore"
 
-    skills = {
-        "ai_agents":     ["LangChain", "CrewAI", "OpenAI", "Claude API", "RAG Pipelines"],
-        "automation":    ["Selenium", "Playwright", "Airflow", "Celery", "Scrapy"],
-        "data_eng":      ["ETL/ELT", "dbt", "Snowflake", "PostgreSQL", "MongoDB"],
-        "cv_ml":         ["YOLOv8", "OpenCV", "TensorRT", "Edge AI", "VLMs"],
-        "cloud_devops":  ["AWS", "Docker", "REST APIs", "CI/CD", "MQTT"],
+    backend_apis = {
+        "frameworks":    ["FastAPI", "Flask", "Socket.IO", "Node.js"],
+        "patterns":      ["REST", "WebSocket", "OAuth2", "Webhooks", "Event-Driven"],
+        "async":         ["asyncio", "aiohttp", "Celery", "Redis queues"],
+        "auth_payments": ["OAuth2", "JWT", "Escrow systems", "Identity verification"],
     }
+
+    ai_agents = {
+        "orchestration": ["LangChain", "CrewAI", "Multi-Agent Pipelines"],
+        "llms":          ["OpenAI GPT-4", "Claude API", "Ollama", "LM Studio"],
+        "retrieval":     ["RAG", "Qdrant", "ChromaDB", "Vector Embeddings"],
+    }
+
+    databases = {
+        "relational":    ["PostgreSQL", "MySQL", "SQLite"],
+        "nosql":         ["MongoDB", "Redis"],
+        "vector":        ["Qdrant", "ChromaDB"],
+        "warehousing":   ["Snowflake", "dbt", "ETL/ELT Pipelines"],
+    }
+
+    automation = ["Selenium", "Playwright", "Airflow", "Scrapy", "Anti-bot handling"]
+    cv_ml      = ["YOLOv8", "OpenCV", "TensorRT", "Edge AI", "VLMs", "Synthetic Data"]
+    devops     = ["Docker", "AWS (EC2/S3/Lambda)", "GitHub Actions", "CI/CD", "systemd"]
+    embedded   = ["Raspberry Pi GPIO", "NVIDIA Jetson", "MQTT", "Sensor Fusion", "CUDA"]
 
     def current_focus(self):
         return "Building autonomous AI agents that replace manual workflows at scale"
@@ -43,15 +61,17 @@ class DawarAzhar:
 
 ## 🚀 About Me
 
-I'm a **Senior Python Engineer** with **7+ years** of hands-on experience shipping production systems across **AI, automation, and data engineering**.
+**Senior Python Engineer** with **7+ years** shipping production systems across **AI agents, API development, automation, and data engineering**.
 
-I don't just build demos — I build things that run 24/7 in production, handle real users, and deliver measurable business value.
+I don't wrap APIs — I design, build, and deploy them from scratch. FastAPI backends with auth, async job processing, WebSocket real-time streaming, structured logging, and production-grade error handling.
 
-- 🏗️ **Founded [OhmFrame AI](https://ohmframe.com)** — a live SaaS platform where autonomous AI agents handle engineering workflows end-to-end
-- 🤖 **AI Agent Architect** — designing multi-agent systems with LangChain, CrewAI, OpenAI, and Claude APIs
-- ⚡ **Automation Engineer** — browser automation, web scraping, and workflow orchestration at scale
-- 📊 **Data Engineer** — ETL/ELT pipelines, data warehousing, and real-time data architectures
-- 👁️ **Computer Vision** — deployed edge AI systems on NVIDIA Jetson running at production FPS
+- 🏗️ **Founded [OhmFrame AI](https://ohmframe.com)** — live SaaS with **5 production autonomous agents** serving real users
+- 🤖 **AI Agent Architect** — multi-agent pipelines with CrewAI, LangChain, RAG, and vector search
+- 🔌 **API Developer** — FastAPI/Flask backends with OAuth2, WebSocket, event-driven architectures, and async job queues
+- 🗄️ **Database Engineer** — PostgreSQL schema design, vector DBs (Qdrant/ChromaDB), Redis caching, Snowflake warehousing
+- ⚡ **Automation** — Selenium/Playwright with proxy rotation, anti-bot handling, and unattended 24/7 operation
+- 👁️ **Computer Vision** — YOLOv8 + TensorRT on Jetson Nano, ZED2i stereo depth, ultrasonic sensor fusion
+- 🌍 **Global exposure** across USA, UK, Germany, France, Canada, China, Australia, and more
 - 📍 Based in **Lahore, Pakistan** · Open to **remote opportunities worldwide**
 
 ---
@@ -60,12 +80,13 @@ I don't just build demos — I build things that run 24/7 in production, handle 
 
 <div align="center">
 
-**Python & Core**
+**Python & Backend**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
 
 **AI Agents & LLMs**
 
@@ -74,18 +95,26 @@ I don't just build demos — I build things that run 24/7 in production, handle 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-FF4444?style=for-the-badge&logo=robot&logoColor=white)
 
+**Databases**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-FF4444?style=for-the-badge&logo=qdrant&logoColor=white)
+
 **Computer Vision & ML**
 
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
-**Automation & Orchestration**
+**Automation & Scraping**
 
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
 
 **Cloud & DevOps**
 
@@ -93,17 +122,11 @@ I don't just build demos — I build things that run 24/7 in production, handle 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-**Data & Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
 **Edge & Embedded**
 
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 ![NVIDIA Jetson](https://img.shields.io/badge/Jetson_Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipsemosquitto&logoColor=white)
 
 </div>
 
@@ -111,194 +134,227 @@ I don't just build demos — I build things that run 24/7 in production, handle 
 
 ## 📌 Featured Projects
 
-### 🧠 [OhmFrame AI](https://ohmframe.com) — Autonomous AI Agent Platform `LIVE`
-> SaaS platform with multi-agent AI systems that automate complex engineering workflows end-to-end.
+### 🧠 [OhmFrame AI](https://ohmframe.com) — Engineering Automation SaaS `LIVE`
+> **5 production autonomous agents** serving real users: FMEA Generator (auto-generates failure modes with severity/occurrence/detection ratings), DFM Agent (real-time manufacturability feedback), FAIR Inspection Agent (ArUco + OpenCV, ±1mm accuracy), YOLO CV pipeline (Blender → PyTorch → CoreML → iOS), and OhmFrame Copilot desktop agent (Tauri + Rust).
 
 ```mermaid
 graph LR
-    A[User Request] --> B[FastAPI Gateway]
-    B --> C[Agent Orchestrator]
-    C --> D[LLM Router]
-    D --> E[OpenAI / Claude]
-    C --> F[Tool Executor]
-    F --> G[CAD Analysis]
-    F --> H[Document Gen]
-    F --> I[Data Pipeline]
-    C --> J[(PostgreSQL)]
-    B --> K[React Dashboard]
+    A[User Request] --> B[FastAPI Backend]
+    B --> C{Agent Router}
+    C --> D[FMEA Agent]
+    C --> E[DFM Agent]
+    C --> F[FAIR Inspection]
+    C --> G[YOLO CV Pipeline]
+    C --> H[Copilot Agent]
+    D & E & F & G --> I[OpenAI GPT-4]
+    F --> J[OpenCV + ArUco]
+    G --> K[YOLOv8 + CoreML]
+    B --> L[(PostgreSQL)]
+    B --> M[Auth + Logging + Retry]
+    B --> N[Docker + GitHub Actions CI/CD]
 ```
 
-> `Python` `LangChain` `OpenAI` `Claude API` `FastAPI` `Docker` `PostgreSQL`
+> `Python` `FastAPI` `OpenAI GPT-4` `OpenCV` `YOLOv8` `Tauri` `Docker` `GitHub Actions` `PostgreSQL`
 
 ---
 
-### 🗣️ [SolidVoice](https://github.com/dawarazhar11/SolidVoice-Voice-Enabled-Parametric-Modelling-in-SolidWorks) — Voice-Controlled CAD Automation ⭐ 8
-> Intelligent voice-controlled SolidWorks automation powered by Claude AI, local Whisper STT, vector memory (Qdrant + Nomic), and a native Rust desktop UI.
+### 🛒 Bolee — AI-First Classifieds Marketplace `MVP DELIVERED`
+> Dual-mode marketplace: **Talab Mode** (reverse marketplace — buyers post demand, sellers compete) and **Boli Mode** (real-time auction with entry fees). Event-driven Python backend for state management, real-time bid processing, and multi-party notifications. Trilingual NLP search (English, Urdu, Roman Urdu) with vector embeddings. AI fraud detection scoring every listing at submission. AI price enforcement anchored by real market data. Escrow-backed transactions with CNIC identity verification tiers.
 
 ```mermaid
 graph LR
-    A[🎙️ Voice Input] --> B[Whisper STT]
-    B --> C[Claude AI]
-    C --> D[Intent Parser]
-    D --> E[SolidWorks COM API]
-    C <--> F[(Qdrant Vector DB)]
-    F <--> G[Nomic Embeddings]
-    E --> H[3D Model Output]
-    D --> I[Rust Desktop UI]
-```
-
-> `Python` `Claude API` `Whisper` `Qdrant` `Rust` `SolidWorks API` `COM Automation`
-
----
-
-### 📄 [ContractForge](https://github.com/dawarazhar11/contract-forge) — AI Contract Analysis with Multi-Agent CrewAI
-> AI-powered contract analysis system using CrewAI agents, FastAPI backend, and Next.js frontend. Runs fully locally with LM Studio or Ollama.
-
-```mermaid
-graph LR
-    A[PDF Upload] --> B[Next.js Frontend]
+    A[Buyer / Seller] --> B[Next.js Frontend]
     B --> C[FastAPI Backend]
-    C --> D[CrewAI Orchestrator]
-    D --> E[Clause Analyst Agent]
-    D --> F[Risk Assessor Agent]
-    D --> G[Summary Writer Agent]
-    E & F & G --> H[LM Studio / Ollama]
-    D --> I[Structured Report]
+    C --> D{Marketplace Engine}
+    D --> E[Talab Mode - Reverse Bids]
+    D --> F[Boli Mode - Live Auction]
+    C --> G[Trilingual NLP Search]
+    G --> H[Vector Embeddings]
+    H --> I[(Vector DB)]
+    C --> J[AI Fraud Detector]
+    C --> K[AI Price Enforcer]
+    K --> L[Price Scraper Feed]
+    C --> M[(PostgreSQL)]
+    C --> N[(Redis)]
+    C --> O[Escrow + Identity]
 ```
 
-> `Python` `CrewAI` `FastAPI` `Next.js` `Ollama` `LM Studio` `Multi-Agent`
+> `Python` `FastAPI` `Next.js` `PostgreSQL` `Redis` `Vector DB` `OpenAI` `NLP` `Selenium` `Docker`
+
+---
+
+### 📄 [ContractForge](https://github.com/dawarazhar11/contract-forge) — Multi-Agent Contract Analysis
+> **4 specialized CrewAI agents** in pipeline: Data Retrieval Specialist (semantic vector search via Qdrant), Source Citer (section-level citation), Conflicts of Interest Specialist (cross-contract contradiction detection), and Report Generator. Fully local AI with **WebSocket real-time progress tracking**. Supports PDF, DOC, DOCX, TXT.
+
+```mermaid
+graph LR
+    A[Document Upload] --> B[Next.js Frontend]
+    B <-->|WebSocket| C[FastAPI Backend]
+    C --> D[CrewAI Pipeline]
+    D --> E[1. Data Retrieval Agent]
+    D --> F[2. Source Citer Agent]
+    D --> G[3. Conflicts Specialist]
+    D --> H[4. Report Generator]
+    E <--> I[(Qdrant Vector DB)]
+    E & F & G & H --> J[LM Studio / Ollama]
+    H --> K[Structured Report]
+```
+
+> `Python` `CrewAI` `FastAPI` `WebSocket` `Qdrant` `Next.js` `Ollama` `LM Studio` `Docker`
 
 ---
 
 ### 📢 [CrewAI Nexus](https://github.com/dawarazhar11/crewai-nexus) — Local AI Content Marketing Platform
-> Full-stack application for content marketing powered by CrewAI with local AI models. Multi-agent workflows for content strategy, writing, and optimization.
+> Fully containerized multi-agent content marketing system running **100% offline**. Capability-based model selection, real-time job tracking, semantic vector search with ChromaDB and Qdrant, web search via OpenSerp. Docker orchestrated with **Nginx reverse proxy**.
 
 ```mermaid
 graph LR
-    A[Marketing Brief] --> B[TypeScript Frontend]
-    B --> C[API Layer]
+    A[Marketing Brief] --> B[Next.js Frontend]
+    B --> C[FastAPI Backend]
     C --> D[CrewAI Engine]
     D --> E[Strategist Agent]
     D --> F[Writer Agent]
     D --> G[SEO Agent]
-    E & F & G --> H[Local LLM - Ollama]
-    D --> I[Content Output]
+    E & F & G --> H[Ollama - Local LLM]
+    C <--> I[(ChromaDB)]
+    C <--> J[(Qdrant)]
+    C --> K[OpenSerp Web Search]
+    L[Nginx Proxy] --> B & C
 ```
 
-> `Python` `CrewAI` `TypeScript` `Ollama` `Local LLMs` `Multi-Agent Workflows`
+> `Python` `CrewAI` `FastAPI` `Next.js` `Ollama` `ChromaDB` `Qdrant` `Docker Compose` `Nginx`
 
 ---
 
-### 👁️ [VisionForge](https://github.com/dawarazhar11/VisionForge) — 3D-to-YOLO Synthetic Data Pipeline
-> Automated pipeline that takes 3D CAD models and generates synthetic training data, then trains and deploys YOLO detectors to mobile devices.
+### 👁️ [VisionForge](https://github.com/dawarazhar11/VisionForge) — 3D-to-Mobile YOLO Pipeline
+> End-to-end: upload 3D assembly files → generate synthetic training data via Blender EEVEE (randomized camera angles + lighting) → train YOLO segmentation models with GPU → export to CoreML (iOS) and TFLite (Android) → deploy to Flutter mobile app for **30+ FPS** real-time detection. **RESTful API with async job processing**.
 
 ```mermaid
 graph LR
-    A[3D CAD Model] --> B[Blender Renderer]
-    B --> C[Synthetic Dataset]
-    C --> D[Augmentation Pipeline]
-    D --> E[YOLOv8 Training]
-    E --> F[Model Export]
-    F --> G[TFLite / CoreML]
-    G --> H[📱 Mobile Deploy]
+    A[3D CAD Upload] --> B[FastAPI + Celery]
+    B --> C[Blender EEVEE Renderer]
+    C --> D[Synthetic Dataset]
+    D --> E[Augmentation Pipeline]
+    E --> F[YOLOv8 GPU Training]
+    F --> G{Model Export}
+    G --> H[CoreML - iOS]
+    G --> I[TFLite - Android]
+    H & I --> J[Flutter Mobile App]
+    B --> K[(PostgreSQL)]
+    B --> L[(Redis Queue)]
 ```
 
-> `Python` `YOLOv8` `Blender` `OpenCV` `Synthetic Data` `Mobile Deployment`
+> `Python` `FastAPI` `Celery` `Redis` `PostgreSQL` `Blender` `YOLOv8` `PyTorch` `CoreML` `TFLite` `Flutter` `Docker`
 
 ---
 
-### 🎬 [ReelForge](https://github.com/dawarazhar11/ReelForge) — AI Short-Form Video Generator
-> Automated pipeline for generating Instagram Reels / TikTok format videos using AI — from script to final render.
+### 🚗 GoViz — Industrial Collision Detection `DELIVERED`
+> Dual-device embedded system: **Jetson Nano** runs YOLOv8 + TensorRT (10-15 FPS) with ZED2i stereo depth camera; **Raspberry Pi 4B** fuses vision data with 6-zone HC-SR04 ultrasonic sensors for collision decisions and alarm triggering. Custom binary serial protocol between devices. MQTT-based Flutter mobile control app. Systemd deployment for **24/7 unattended operation**.
 
-> `Python` `AI Content Generation` `Video Processing` `Automation`
+```mermaid
+graph LR
+    A[ZED2i Stereo Camera] --> B[Jetson Nano]
+    B --> C[YOLOv8 + TensorRT]
+    C --> D{Custom Binary Serial}
+    E[6x HC-SR04 Sonar] --> F[Raspberry Pi 4B]
+    D --> F
+    F --> G[Sensor Fusion Engine]
+    G --> H[Collision Decision]
+    H --> I[Alarm System]
+    H --> J[MQTT Broker]
+    J --> K[Flutter Mobile App]
+    H --> L[Flask + Socket.IO Dashboard]
+```
+
+> `Python` `YOLOv8` `TensorRT` `ZED2i` `Raspberry Pi GPIO` `MQTT` `Flask` `Socket.IO` `Flutter` `systemd`
+
+---
+
+### 🎬 [ReelForge](https://github.com/dawarazhar11/ReelForge) — AI Short-Form Video Automation `95 COMMITS`
+> End-to-end automation: LLM-powered script segmentation into A-Roll/B-Roll → AI visual generation via ComfyUI (Flux, WAN, LoRA) or Replicate → HeyGen avatar talking-head video → FFmpeg assembly with audio sync → word-level animated captions → multi-platform publishing to **YouTube, TikTok, and Instagram**.
+
+> `Python` `Streamlit` `Ollama` `ComfyUI` `Replicate` `HeyGen API` `FFmpeg` `TTS`
+
+---
+
+### 🗣️ [SolidVoice](https://github.com/dawarazhar11/SolidVoice-Voice-Enabled-Parametric-Modelling-in-SolidWorks) — Voice-Controlled CAD Agent ⭐ 8
+> Event-driven agent: voice command → LLM prompt generation → autonomous CAD sketch execution inside SolidWorks via system-level COM API. Intelligent voice-controlled parametric modelling with vector memory (Qdrant + Nomic) and native Rust desktop UI.
+
+```mermaid
+graph LR
+    A[🎙️ Voice Command] --> B[Whisper STT]
+    B --> C[GPT-3 / Claude]
+    C --> D[Intent Parser]
+    D --> E[SolidWorks COM API]
+    C <--> F[(Qdrant + Nomic)]
+    E --> G[3D Model Output]
+    D --> H[Rust Desktop UI]
+```
+
+> `Python` `OpenAI` `Claude API` `Whisper` `Qdrant` `Nomic` `Rust` `SolidWorks COM API`
+
+---
+
+### 🕷️ [AI Product & Price Scraper](https://github.com/dawarazhar11/AI-Product-and-Price-Scrapper) — Production Data Feed `LIVE`
+> Dual-engine scraper: Selenium (legacy sites) + Playwright (modern JS). Proxy rotation, exponential backoff retry logic, structured logging. **Continuous unattended operation** feeding real-time pricing data into Bolee AI price enforcement.
+
+> `Python` `Selenium` `Playwright` `BeautifulSoup` `PostgreSQL` `asyncio`
 
 ---
 
 ### 🔧 [PartForge PLM](https://github.com/dawarazhar11/partforge-plm) — AI Part Number Management
-> AI-powered part number management system for manufacturing. Generate standardized part numbers with CLI and modern web UI.
+> Manufacturing part lifecycle management: standardized part numbers across OTS, Fabricated, and Assembly categories. Dual interface: interactive CLI + modern web UI with form validation and sequential numbering.
 
-> `TypeScript` `AI` `Manufacturing` `PLM` `CLI + Web UI`
+> `Node.js` `Next.js 15` `React 19` `TypeScript` `Tailwind` `Zod`
 
 ---
 
 ### ✏️ [OhmFrame Drawer](https://github.com/dawarazhar11/ohmframe-drawer) — AI 2D Drawing Generator
 > AI-powered 2D engineering drawing generator from STEP files. Automatically produces manufacturing-ready drawings from 3D models.
 
-> `TypeScript` `STEP Files` `CAD` `AI` `Engineering Automation`
+> `TypeScript` `STEP Files` `CAD Automation` `AI`
 
 ---
 
-### 🖥️ [OhmFrame Copilot](https://github.com/dawarazhar11/ohmframe-copilot) — Desktop Engineering AI Assistant
-> Desktop co-pilot for CAD — captures screen, understands engineering context, and provides AI-powered analysis and recommendations.
+### 🖥️ [OhmFrame Copilot](https://github.com/dawarazhar11/ohmframe-copilot) — Desktop Engineering AI
+> Desktop co-pilot: screen capture → engineering context understanding → AI-powered analysis and recommendations. Built with Tauri + Rust + TypeScript.
 
-> `TypeScript` `Screen Capture` `AI Analysis` `Desktop App` `Computer Vision`
+> `Tauri` `Rust` `TypeScript` `AI` `Screen Capture` `Computer Vision`
 
 ---
 
-### 🔍 [FAIR Inspection Agent](https://github.com/dawarazhar11/fair-inspection-agent) — AI Quality Inspection
-> AI-powered First Article Inspection Report app for mechanical engineers — compare manufactured parts to CAD/drawings using smartphone cameras.
+### 🔍 [FAIR Inspection Agent](https://github.com/dawarazhar11/fair-inspection-agent) — AI Quality Control
+> Compare manufactured parts to CAD/drawings using smartphone cameras. ArUco marker-based measurement achieving **±1mm accuracy**.
 
-> `Python` `Computer Vision` `AI Agents` `Manufacturing QA` `Mobile`
+> `Python` `OpenCV` `ArUco Markers` `Computer Vision` `Manufacturing QA`
 
 ---
 
 ### 🏭 [VLM-CAD Feature Recognition](https://github.com/dawarazhar11/VLM-CADFeatureRecognition) — Vision-Language Models for Manufacturing
-> Manufacturing feature recognition in CAD designs using vision-language models. Automated detection of holes, pockets, slots, and other features.
+> Automated manufacturing feature recognition in CAD designs using vision-language models — holes, pockets, slots, and complex geometry.
 
 > `Python` `VLMs` `Computer Vision` `Manufacturing` `Jupyter`
 
 ---
 
-### 🚗 GoViz — Edge AI Collision Detection
-> Real-time collision detection system deployed on NVIDIA Jetson Nano running at 10-15 FPS in production environments.
-
-```mermaid
-graph LR
-    A[Camera Feed] --> B[Frame Capture]
-    B --> C[YOLOv8 + TensorRT]
-    C --> D[Object Tracking]
-    D --> E[Collision Predictor]
-    E --> F[⚠️ Alert System]
-    E --> G[MQTT Broker]
-    G --> H[Dashboard]
-```
-
-> `YOLOv8` `OpenCV` `TensorRT` `Jetson Nano` `MQTT` `Edge AI`
-
----
-
-### 🛒 Bolee — AI Classifieds Marketplace
-> Full classifieds platform for Pakistan with trilingual NLP search (Urdu, English, Roman Urdu), real-time auction engine, and AI-driven competitive pricing.
-
-> `Python` `NLP` `FastAPI` `PostgreSQL` `Competitive Pricing Engine`
-
----
-
 ### 🐳 [Blender Docker Headless](https://github.com/dawarazhar11/blender-docker-headless) — GPU Render Farm
-> Blender 5.0 headless Docker image with NVIDIA GPU (CUDA 12.4) support for render farms and automated rendering pipelines.
+> Blender 5.0 headless Docker image with NVIDIA GPU (CUDA 12.4) support for automated rendering pipelines and render farms.
 
 > `Python` `Docker` `Blender` `CUDA` `GPU Rendering`
 
 ---
 
-### 🕷️ [AI Product & Price Scraper](https://github.com/dawarazhar11/AI-Product-and-Price-Scrapper) — Intelligent Web Scraping
-> AI-enhanced product and price scraping system for competitive market intelligence.
-
-> `Python` `Web Scraping` `AI` `Data Extraction`
-
----
-
 ### ⚡ Enterprise Data Pipelines
-> Designed and deployed scalable ETL/ELT architectures with automated scheduling, data validation, monitoring, and alerting.
+> Scalable ETL/ELT architectures with automated scheduling, data validation, monitoring, and alerting.
 
 ```mermaid
 graph LR
     A[Data Sources] --> B[Airflow DAGs]
-    B --> C[Extract & Validate]
+    B --> C[Extract + Validate]
     C --> D[dbt Transform]
     D --> E[(Snowflake DWH)]
     E --> F[BI Dashboards]
-    B --> G[Alerting]
+    B --> G[Alerting + Monitoring]
 ```
 
 > `Airflow` `dbt` `PostgreSQL` `Snowflake` `AWS`
@@ -328,12 +384,13 @@ graph LR
 <td width="50%">
 
 **Engineering**
-- 🏗️ Founded & built **OhmFrame AI** — a live SaaS platform
-- 🤖 Architected **multi-agent CrewAI systems** in production
-- 👁️ Deployed real-time CV models on **edge hardware**
-- ⚡ Built ETL pipelines processing **millions of records**
-- 🗣️ Created voice-controlled CAD automation with **Claude AI**
-- 🏭 Built **synthetic data pipelines** from 3D models to YOLO
+- 🏗️ Founded & shipped **OhmFrame AI** — live SaaS, 5 agents
+- 🛒 Architected **Bolee** — full marketplace with AI fraud detection
+- 🤖 Built **multi-agent CrewAI pipelines** with vector search
+- 🔌 Designed **production APIs** — FastAPI, WebSocket, OAuth2
+- 🗄️ PostgreSQL schema design, vector DBs, Redis caching
+- 👁️ Deployed real-time CV on **edge hardware** (Jetson + Pi)
+- 🎬 Built end-to-end **AI video pipeline** (ReelForge, 95 commits)
 
 </td>
 <td width="50%">
@@ -343,8 +400,9 @@ graph LR
 - ⭐ **364+ stars** earned across projects
 - 🌍 **7+ years** shipping production systems
 - 🔧 Full-stack — from **Jetson Nano to cloud SaaS**
-- 🧠 **6+ AI agent systems** built and deployed
-- 🏭 Deep domain expertise in **manufacturing AI**
+- 🧠 **5+ production AI agents** deployed and serving users
+- 🏭 Deep domain in **manufacturing AI + CAD automation**
+- 🎓 **MS Manufacturing Engineering** — UET Lahore
 
 </td>
 </tr>
@@ -352,11 +410,21 @@ graph LR
 
 ---
 
+## 🎓 Education
+
+**Master of Science — Manufacturing Engineering**
+University of Engineering and Technology (UET), Lahore · 2025
+
+**Bachelor of Science — Mechanical Engineering**
+University of Engineering and Technology (UET), Lahore · 2018
+
+---
+
 <div align="center">
 
 ### 💼 Open to Opportunities
 
-**I'm actively looking for roles in AI Engineering, Python Automation, and Data Engineering.**
+**I'm actively looking for roles in AI Engineering, Python Development, and Automation.**
 
 If you're building something ambitious with Python, LLMs, or automation — let's talk.
 
