@@ -65,7 +65,7 @@ class DawarAzhar:
 
 I don't wrap APIs — I design, build, and deploy them from scratch. FastAPI backends with auth, async job processing, WebSocket real-time streaming, structured logging, and production-grade error handling.
 
-- 🏗️ **Founded [OhmFrame AI](https://ohmframe.com)** — live SaaS with **5 production autonomous agents** serving real users
+- 🏗️ **Founded [OhmFrame AI](https://ohmframe.com)** — live engineering AI platform with **5 production agents** powered by Claude API, serving hardware startups
 - 🤖 **AI Agent Architect** — multi-agent pipelines with CrewAI, LangChain, RAG, and vector search
 - 🔌 **API Developer** — FastAPI/Flask backends with OAuth2, WebSocket, event-driven architectures, and async job queues
 - 🗄️ **Database Engineer** — PostgreSQL schema design, vector DBs (Qdrant/ChromaDB), Redis caching, Snowflake warehousing
@@ -134,22 +134,27 @@ I don't wrap APIs — I design, build, and deploy them from scratch. FastAPI bac
 
 ## 📌 Featured Projects
 
-### 🧠 [OhmFrame AI](https://ohmframe.com) — Engineering Automation SaaS `LIVE`
-> **5 production autonomous agents** serving real users: FMEA Generator (auto-generates failure modes with severity/occurrence/detection ratings), DFM Agent (real-time manufacturability feedback), FAIR Inspection Agent (ArUco + OpenCV, ±1mm accuracy), YOLO CV pipeline (Blender → PyTorch → CoreML → iOS), and OhmFrame Copilot desktop agent (Tauri + Rust).
+### 🧠 [OhmFrame AI](https://ohmframe.com) — Engineering AI Platform `LIVE`
+> Full-stack AI-powered engineering platform serving hardware startups (EV chargers, battery systems, datacenter power). **5 production autonomous agents** built on **Claude API**: FMEA Generator (auto-generates failure modes with severity/occurrence/detection ratings), DFM Analyzer (real-time manufacturability feedback), FAIR Inspection Agent (ArUco + OpenCV, ±1mm accuracy), YOLO CV Detection pipeline (Blender → PyTorch → CoreML → iOS), and OhmFrame Copilot desktop agent (Tauri + Rust). Additional AI tools include technical diagram generation, tolerance stackup analysis, GD&T advisor, material selector, cost estimation, and patent search.
 
 ```mermaid
 graph LR
     A["User Request"] --> B["FastAPI Backend"]
     B --> C{"Agent Router"}
-    C --> D["FMEA Agent"]
-    C --> E["DFM Agent"]
+    C --> D["FMEA Generator"]
+    C --> E["DFM Analyzer"]
     C --> F["FAIR Inspection"]
     C --> G["YOLO CV Pipeline"]
     C --> H["Copilot Agent"]
-    D --> I["OpenAI GPT-4"]
+    D --> I["Claude API"]
     E --> I
     F --> I
-    G --> I
+    C --> P["Diagram Generator"]
+    C --> Q["GD&T / Tolerance"]
+    C --> R["Cost Estimator"]
+    P --> I
+    Q --> I
+    R --> I
     F --> J["OpenCV / ArUco"]
     G --> K["YOLOv8 / CoreML"]
     B --> L[("PostgreSQL")]
@@ -157,7 +162,7 @@ graph LR
     B --> N["Docker / GitHub Actions"]
 ```
 
-> `Python` `FastAPI` `OpenAI GPT-4` `OpenCV` `YOLOv8` `Tauri` `Docker` `GitHub Actions` `PostgreSQL`
+> `Python` `FastAPI` `Claude API` `OpenCV` `YOLOv8` `Tauri` `Docker` `GitHub Actions` `PostgreSQL` `Next.js`
 
 ---
 
@@ -394,7 +399,7 @@ graph LR
 <td width="50%">
 
 **Engineering**
-- 🏗️ Founded & shipped **OhmFrame AI** — live SaaS, 5 agents
+- 🏗️ Founded & shipped **OhmFrame AI** — live platform, Claude API
 - 🛒 Architected **Bolee** — full marketplace with AI fraud detection
 - 🤖 Built **multi-agent CrewAI pipelines** with vector search
 - 🔌 Designed **production APIs** — FastAPI, WebSocket, OAuth2
