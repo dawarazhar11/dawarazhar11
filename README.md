@@ -139,19 +139,22 @@ I don't wrap APIs — I design, build, and deploy them from scratch. FastAPI bac
 
 ```mermaid
 graph LR
-    A[User Request] --> B[FastAPI Backend]
-    B --> C{Agent Router}
-    C --> D[FMEA Agent]
-    C --> E[DFM Agent]
-    C --> F[FAIR Inspection]
-    C --> G[YOLO CV Pipeline]
-    C --> H[Copilot Agent]
-    D & E & F & G --> I[OpenAI GPT-4]
-    F --> J[OpenCV + ArUco]
-    G --> K[YOLOv8 + CoreML]
-    B --> L[(PostgreSQL)]
-    B --> M[Auth + Logging + Retry]
-    B --> N[Docker + GitHub Actions CI/CD]
+    A["User Request"] --> B["FastAPI Backend"]
+    B --> C{"Agent Router"}
+    C --> D["FMEA Agent"]
+    C --> E["DFM Agent"]
+    C --> F["FAIR Inspection"]
+    C --> G["YOLO CV Pipeline"]
+    C --> H["Copilot Agent"]
+    D --> I["OpenAI GPT-4"]
+    E --> I
+    F --> I
+    G --> I
+    F --> J["OpenCV / ArUco"]
+    G --> K["YOLOv8 / CoreML"]
+    B --> L[("PostgreSQL")]
+    B --> M["Auth / Logging / Retry"]
+    B --> N["Docker / GitHub Actions"]
 ```
 
 > `Python` `FastAPI` `OpenAI GPT-4` `OpenCV` `YOLOv8` `Tauri` `Docker` `GitHub Actions` `PostgreSQL`
@@ -163,20 +166,20 @@ graph LR
 
 ```mermaid
 graph LR
-    A[Buyer / Seller] --> B[Next.js Frontend]
-    B --> C[FastAPI Backend]
-    C --> D{Marketplace Engine}
-    D --> E[Talab Mode - Reverse Bids]
-    D --> F[Boli Mode - Live Auction]
-    C --> G[Trilingual NLP Search]
-    G --> H[Vector Embeddings]
-    H --> I[(Vector DB)]
-    C --> J[AI Fraud Detector]
-    C --> K[AI Price Enforcer]
-    K --> L[Price Scraper Feed]
-    C --> M[(PostgreSQL)]
-    C --> N[(Redis)]
-    C --> O[Escrow + Identity]
+    A["Buyer / Seller"] --> B["Next.js Frontend"]
+    B --> C["FastAPI Backend"]
+    C --> D{"Marketplace Engine"}
+    D --> E["Talab Mode"]
+    D --> F["Boli Mode"]
+    C --> G["Trilingual NLP Search"]
+    G --> H["Vector Embeddings"]
+    H --> I[("Vector DB")]
+    C --> J["AI Fraud Detector"]
+    C --> K["AI Price Enforcer"]
+    K --> L["Price Scraper Feed"]
+    C --> M[("PostgreSQL")]
+    C --> N[("Redis")]
+    C --> O["Escrow / Identity"]
 ```
 
 > `Python` `FastAPI` `Next.js` `PostgreSQL` `Redis` `Vector DB` `OpenAI` `NLP` `Selenium` `Docker`
@@ -188,16 +191,19 @@ graph LR
 
 ```mermaid
 graph LR
-    A[Document Upload] --> B[Next.js Frontend]
-    B <-->|WebSocket| C[FastAPI Backend]
-    C --> D[CrewAI Pipeline]
-    D --> E[1. Data Retrieval Agent]
-    D --> F[2. Source Citer Agent]
-    D --> G[3. Conflicts Specialist]
-    D --> H[4. Report Generator]
-    E <--> I[(Qdrant Vector DB)]
-    E & F & G & H --> J[LM Studio / Ollama]
-    H --> K[Structured Report]
+    A["Document Upload"] --> B["Next.js Frontend"]
+    B <--> C["FastAPI Backend"]
+    C --> D["CrewAI Pipeline"]
+    D --> E["Data Retrieval Agent"]
+    D --> F["Source Citer Agent"]
+    D --> G["Conflicts Specialist"]
+    D --> H["Report Generator"]
+    E <--> I[("Qdrant Vector DB")]
+    E --> J["LM Studio / Ollama"]
+    F --> J
+    G --> J
+    H --> J
+    H --> K["Structured Report"]
 ```
 
 > `Python` `CrewAI` `FastAPI` `WebSocket` `Qdrant` `Next.js` `Ollama` `LM Studio` `Docker`
@@ -209,17 +215,20 @@ graph LR
 
 ```mermaid
 graph LR
-    A[Marketing Brief] --> B[Next.js Frontend]
-    B --> C[FastAPI Backend]
-    C --> D[CrewAI Engine]
-    D --> E[Strategist Agent]
-    D --> F[Writer Agent]
-    D --> G[SEO Agent]
-    E & F & G --> H[Ollama - Local LLM]
-    C <--> I[(ChromaDB)]
-    C <--> J[(Qdrant)]
-    C --> K[OpenSerp Web Search]
-    L[Nginx Proxy] --> B & C
+    A["Marketing Brief"] --> B["Next.js Frontend"]
+    B --> C["FastAPI Backend"]
+    C --> D["CrewAI Engine"]
+    D --> E["Strategist Agent"]
+    D --> F["Writer Agent"]
+    D --> G["SEO Agent"]
+    E --> H["Ollama Local LLM"]
+    F --> H
+    G --> H
+    C <--> I[("ChromaDB")]
+    C <--> J[("Qdrant")]
+    C --> K["OpenSerp Web Search"]
+    L["Nginx Proxy"] --> B
+    L --> C
 ```
 
 > `Python` `CrewAI` `FastAPI` `Next.js` `Ollama` `ChromaDB` `Qdrant` `Docker Compose` `Nginx`
@@ -231,17 +240,18 @@ graph LR
 
 ```mermaid
 graph LR
-    A[3D CAD Upload] --> B[FastAPI + Celery]
-    B --> C[Blender EEVEE Renderer]
-    C --> D[Synthetic Dataset]
-    D --> E[Augmentation Pipeline]
-    E --> F[YOLOv8 GPU Training]
-    F --> G{Model Export}
-    G --> H[CoreML - iOS]
-    G --> I[TFLite - Android]
-    H & I --> J[Flutter Mobile App]
-    B --> K[(PostgreSQL)]
-    B --> L[(Redis Queue)]
+    A["3D CAD Upload"] --> B["FastAPI / Celery"]
+    B --> C["Blender EEVEE Renderer"]
+    C --> D["Synthetic Dataset"]
+    D --> E["Augmentation Pipeline"]
+    E --> F["YOLOv8 GPU Training"]
+    F --> G{"Model Export"}
+    G --> H["CoreML iOS"]
+    G --> I["TFLite Android"]
+    H --> J["Flutter Mobile App"]
+    I --> J
+    B --> K[("PostgreSQL")]
+    B --> L[("Redis Queue")]
 ```
 
 > `Python` `FastAPI` `Celery` `Redis` `PostgreSQL` `Blender` `YOLOv8` `PyTorch` `CoreML` `TFLite` `Flutter` `Docker`
@@ -253,17 +263,17 @@ graph LR
 
 ```mermaid
 graph LR
-    A[ZED2i Stereo Camera] --> B[Jetson Nano]
-    B --> C[YOLOv8 + TensorRT]
-    C --> D{Custom Binary Serial}
-    E[6x HC-SR04 Sonar] --> F[Raspberry Pi 4B]
+    A["ZED2i Stereo Camera"] --> B["Jetson Nano"]
+    B --> C["YOLOv8 / TensorRT"]
+    C --> D{"Binary Serial Protocol"}
+    E["6x HC-SR04 Sonar"] --> F["Raspberry Pi 4B"]
     D --> F
-    F --> G[Sensor Fusion Engine]
-    G --> H[Collision Decision]
-    H --> I[Alarm System]
-    H --> J[MQTT Broker]
-    J --> K[Flutter Mobile App]
-    H --> L[Flask + Socket.IO Dashboard]
+    F --> G["Sensor Fusion Engine"]
+    G --> H["Collision Decision"]
+    H --> I["Alarm System"]
+    H --> J["MQTT Broker"]
+    J --> K["Flutter Mobile App"]
+    H --> L["Flask / Socket.IO Dashboard"]
 ```
 
 > `Python` `YOLOv8` `TensorRT` `ZED2i` `Raspberry Pi GPIO` `MQTT` `Flask` `Socket.IO` `Flutter` `systemd`
@@ -282,13 +292,13 @@ graph LR
 
 ```mermaid
 graph LR
-    A[🎙️ Voice Command] --> B[Whisper STT]
-    B --> C[GPT-3 / Claude]
-    C --> D[Intent Parser]
-    D --> E[SolidWorks COM API]
-    C <--> F[(Qdrant + Nomic)]
-    E --> G[3D Model Output]
-    D --> H[Rust Desktop UI]
+    A["Voice Command"] --> B["Whisper STT"]
+    B --> C["GPT-3 / Claude"]
+    C --> D["Intent Parser"]
+    D --> E["SolidWorks COM API"]
+    C <--> F[("Qdrant / Nomic")]
+    E --> G["3D Model Output"]
+    D --> H["Rust Desktop UI"]
 ```
 
 > `Python` `OpenAI` `Claude API` `Whisper` `Qdrant` `Nomic` `Rust` `SolidWorks COM API`
@@ -349,12 +359,12 @@ graph LR
 
 ```mermaid
 graph LR
-    A[Data Sources] --> B[Airflow DAGs]
-    B --> C[Extract + Validate]
-    C --> D[dbt Transform]
-    D --> E[(Snowflake DWH)]
-    E --> F[BI Dashboards]
-    B --> G[Alerting + Monitoring]
+    A["Data Sources"] --> B["Airflow DAGs"]
+    B --> C["Extract / Validate"]
+    C --> D["dbt Transform"]
+    D --> E[("Snowflake DWH")]
+    E --> F["BI Dashboards"]
+    B --> G["Alerting / Monitoring"]
 ```
 
 > `Airflow` `dbt` `PostgreSQL` `Snowflake` `AWS`
