@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Hey%2C+I'm+Dawar+Azhar+%F0%9F%91%8B;Python+%7C+AI+Agents+%7C+Automation;7%2B+Years+Building+Production+Systems" alt="Typing SVG" />
-
-### Senior Python Engineer · AI Agent Architect · API Developer · Automation Specialist
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=200&section=header&text=Dawar%20Azhar&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20Python%20Engineer%20%7C%20AI%20Agent%20Architect%20%7C%20API%20Developer&descSize=16&descAlignY=55" width="100%" />
 
 <br/>
 
@@ -14,6 +12,16 @@
 [![OhmFrame AI](https://img.shields.io/badge/OhmFrame_AI-FF6B00?style=for-the-badge&logo=rocket&logoColor=white)](https://ohmframe.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dawarazhar11)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dawarazhar11@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+### Quick Navigation
+
+[About Me](#-about-me) · [Tech Stack](#-core-tech-stack) · [AI Agent Projects](#-ai-agent-systems) · [Computer Vision](#-computer-vision--edge-ai) · [Automation](#-automation--scraping) · [Manufacturing AI](#-manufacturing-ai--cad) · [Data Engineering](#-data-engineering) · [GitHub Stats](#-github-stats) · [Highlights](#-career-highlights) · [Hire Me](#-open-to-opportunities)
 
 </div>
 
@@ -132,7 +140,11 @@ I don't wrap APIs — I design, build, and deploy them from scratch. FastAPI bac
 
 ---
 
-## 📌 Featured Projects
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
+
+## 📌 AI Agent Systems
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
 
 ### 🧠 [OhmFrame AI](https://ohmframe.com) — Engineering AI Platform `LIVE`
 > Full-stack AI-powered engineering platform serving hardware startups (EV chargers, battery systems, datacenter power). **5 production autonomous agents** built on **Claude API**: FMEA Generator (auto-generates failure modes with severity/occurrence/detection ratings), DFM Analyzer (real-time manufacturability feedback), FAIR Inspection Agent (ArUco + OpenCV, ±1mm accuracy), YOLO CV Detection pipeline (Blender → PyTorch → CoreML → iOS), and OhmFrame Copilot desktop agent (Tauri + Rust). Additional AI tools include technical diagram generation, tolerance stackup analysis, GD&T advisor, material selector, cost estimation, and patent search.
@@ -163,31 +175,6 @@ graph LR
 ```
 
 > `Python` `FastAPI` `Claude API` `OpenCV` `YOLOv8` `Tauri` `Docker` `GitHub Actions` `PostgreSQL` `Next.js`
-
----
-
-### 🛒 Bolee — AI-First Classifieds Marketplace `MVP DELIVERED`
-> Dual-mode marketplace: **Talab Mode** (reverse marketplace — buyers post demand, sellers compete) and **Boli Mode** (real-time auction with entry fees). Event-driven Python backend for state management, real-time bid processing, and multi-party notifications. Trilingual NLP search (English, Urdu, Roman Urdu) with vector embeddings. AI fraud detection scoring every listing at submission. AI price enforcement anchored by real market data. Escrow-backed transactions with CNIC identity verification tiers.
-
-```mermaid
-graph LR
-    A["Buyer / Seller"] --> B["Next.js Frontend"]
-    B --> C["FastAPI Backend"]
-    C --> D{"Marketplace Engine"}
-    D --> E["Talab Mode"]
-    D --> F["Boli Mode"]
-    C --> G["Trilingual NLP Search"]
-    G --> H["Vector Embeddings"]
-    H --> I[("Vector DB")]
-    C --> J["AI Fraud Detector"]
-    C --> K["AI Price Enforcer"]
-    K --> L["Price Scraper Feed"]
-    C --> M[("PostgreSQL")]
-    C --> N[("Redis")]
-    C --> O["Escrow / Identity"]
-```
-
-> `Python` `FastAPI` `Next.js` `PostgreSQL` `Redis` `Vector DB` `OpenAI` `NLP` `Selenium` `Docker`
 
 ---
 
@@ -240,28 +227,29 @@ graph LR
 
 ---
 
-### 👁️ [VisionForge](https://github.com/dawarazhar11/VisionForge) — 3D-to-Mobile YOLO Pipeline
-> End-to-end: upload 3D assembly files → generate synthetic training data via Blender EEVEE (randomized camera angles + lighting) → train YOLO segmentation models with GPU → export to CoreML (iOS) and TFLite (Android) → deploy to Flutter mobile app for **30+ FPS** real-time detection. **RESTful API with async job processing**.
+### 🗣️ [SolidVoice](https://github.com/dawarazhar11/SolidVoice-Voice-Enabled-Parametric-Modelling-in-SolidWorks) — Voice-Controlled CAD Agent ⭐ 8
+> Event-driven agent: voice command → LLM prompt generation → autonomous CAD sketch execution inside SolidWorks via system-level COM API. Intelligent voice-controlled parametric modelling with vector memory (Qdrant + Nomic) and native Rust desktop UI.
 
 ```mermaid
 graph LR
-    A["3D CAD Upload"] --> B["FastAPI / Celery"]
-    B --> C["Blender EEVEE Renderer"]
-    C --> D["Synthetic Dataset"]
-    D --> E["Augmentation Pipeline"]
-    E --> F["YOLOv8 GPU Training"]
-    F --> G{"Model Export"}
-    G --> H["CoreML iOS"]
-    G --> I["TFLite Android"]
-    H --> J["Flutter Mobile App"]
-    I --> J
-    B --> K[("PostgreSQL")]
-    B --> L[("Redis Queue")]
+    A["Voice Command"] --> B["Whisper STT"]
+    B --> C["GPT-3 / Claude"]
+    C --> D["Intent Parser"]
+    D --> E["SolidWorks COM API"]
+    C <--> F[("Qdrant / Nomic")]
+    E --> G["3D Model Output"]
+    D --> H["Rust Desktop UI"]
 ```
 
-> `Python` `FastAPI` `Celery` `Redis` `PostgreSQL` `Blender` `YOLOv8` `PyTorch` `CoreML` `TFLite` `Flutter` `Docker`
+> `Python` `OpenAI` `Claude API` `Whisper` `Qdrant` `Nomic` `Rust` `SolidWorks COM API`
 
 ---
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
+
+## 👁️ Computer Vision & Edge AI
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
 
 ### 🚗 GoViz — Industrial Collision Detection `DELIVERED`
 > Dual-device embedded system: **Jetson Nano** runs YOLOv8 + TensorRT (10-15 FPS) with ZED2i stereo depth camera; **Raspberry Pi 4B** fuses vision data with 6-zone HC-SR04 ultrasonic sensors for collision decisions and alarm triggering. Custom binary serial protocol between devices. MQTT-based Flutter mobile control app. Systemd deployment for **24/7 unattended operation**.
@@ -285,61 +273,42 @@ graph LR
 
 ---
 
-### 🎬 [ReelForge](https://github.com/dawarazhar11/ReelForge) — AI Short-Form Video Automation `95 COMMITS`
-> End-to-end automation: LLM-powered script segmentation into A-Roll/B-Roll → AI visual generation via ComfyUI (Flux, WAN, LoRA) or Replicate → HeyGen avatar talking-head video → FFmpeg assembly with audio sync → word-level animated captions → multi-platform publishing to **YouTube, TikTok, and Instagram**.
-
-> `Python` `Streamlit` `Ollama` `ComfyUI` `Replicate` `HeyGen API` `FFmpeg` `TTS`
-
----
-
-### 🗣️ [SolidVoice](https://github.com/dawarazhar11/SolidVoice-Voice-Enabled-Parametric-Modelling-in-SolidWorks) — Voice-Controlled CAD Agent ⭐ 8
-> Event-driven agent: voice command → LLM prompt generation → autonomous CAD sketch execution inside SolidWorks via system-level COM API. Intelligent voice-controlled parametric modelling with vector memory (Qdrant + Nomic) and native Rust desktop UI.
+### 👁️ [VisionForge](https://github.com/dawarazhar11/VisionForge) — 3D-to-Mobile YOLO Pipeline
+> End-to-end: upload 3D assembly files → generate synthetic training data via Blender EEVEE (randomized camera angles + lighting) → train YOLO segmentation models with GPU → export to CoreML (iOS) and TFLite (Android) → deploy to Flutter mobile app for **30+ FPS** real-time detection. **RESTful API with async job processing**.
 
 ```mermaid
 graph LR
-    A["Voice Command"] --> B["Whisper STT"]
-    B --> C["GPT-3 / Claude"]
-    C --> D["Intent Parser"]
-    D --> E["SolidWorks COM API"]
-    C <--> F[("Qdrant / Nomic")]
-    E --> G["3D Model Output"]
-    D --> H["Rust Desktop UI"]
+    A["3D CAD Upload"] --> B["FastAPI / Celery"]
+    B --> C["Blender EEVEE Renderer"]
+    C --> D["Synthetic Dataset"]
+    D --> E["Augmentation Pipeline"]
+    E --> F["YOLOv8 GPU Training"]
+    F --> G{"Model Export"}
+    G --> H["CoreML iOS"]
+    G --> I["TFLite Android"]
+    H --> J["Flutter Mobile App"]
+    I --> J
+    B --> K[("PostgreSQL")]
+    B --> L[("Redis Queue")]
 ```
 
-> `Python` `OpenAI` `Claude API` `Whisper` `Qdrant` `Nomic` `Rust` `SolidWorks COM API`
-
----
-
-### 🕷️ [AI Product & Price Scraper](https://github.com/dawarazhar11/AI-Product-and-Price-Scrapper) — Production Data Feed `LIVE`
-> Dual-engine scraper: Selenium (legacy sites) + Playwright (modern JS). Proxy rotation, exponential backoff retry logic, structured logging. **Continuous unattended operation** feeding real-time pricing data into Bolee AI price enforcement.
-
-> `Python` `Selenium` `Playwright` `BeautifulSoup` `PostgreSQL` `asyncio`
-
----
-
-### 🔧 [PartForge PLM](https://github.com/dawarazhar11/partforge-plm) — AI Part Number Management
-> Manufacturing part lifecycle management: standardized part numbers across OTS, Fabricated, and Assembly categories. Dual interface: interactive CLI + modern web UI with form validation and sequential numbering.
-
-> `Node.js` `Next.js 15` `React 19` `TypeScript` `Tailwind` `Zod`
-
----
-
-### ✏️ [OhmFrame Drawer](https://github.com/dawarazhar11/ohmframe-drawer) — AI 2D Drawing Generator
-> AI-powered 2D engineering drawing generator from STEP files. Automatically produces manufacturing-ready drawings from 3D models.
-
-> `TypeScript` `STEP Files` `CAD Automation` `AI`
-
----
-
-### 🖥️ [OhmFrame Copilot](https://github.com/dawarazhar11/ohmframe-copilot) — Desktop Engineering AI
-> Desktop co-pilot: screen capture → engineering context understanding → AI-powered analysis and recommendations. Built with Tauri + Rust + TypeScript.
-
-> `Tauri` `Rust` `TypeScript` `AI` `Screen Capture` `Computer Vision`
+> `Python` `FastAPI` `Celery` `Redis` `PostgreSQL` `Blender` `YOLOv8` `PyTorch` `CoreML` `TFLite` `Flutter` `Docker`
 
 ---
 
 ### 🔍 [FAIR Inspection Agent](https://github.com/dawarazhar11/fair-inspection-agent) — AI Quality Control
 > Compare manufactured parts to CAD/drawings using smartphone cameras. ArUco marker-based measurement achieving **±1mm accuracy**.
+
+```mermaid
+graph LR
+    A["Smartphone Camera"] --> B["Image Capture"]
+    B --> C["ArUco Marker Detection"]
+    C --> D["Dimension Extraction"]
+    D --> E["CAD Drawing Comparison"]
+    E --> F{"Pass / Fail"}
+    F --> G["FAIR Report"]
+    F --> H["Deviation Heatmap"]
+```
 
 > `Python` `OpenCV` `ArUco Markers` `Computer Vision` `Manufacturing QA`
 
@@ -348,16 +317,194 @@ graph LR
 ### 🏭 [VLM-CAD Feature Recognition](https://github.com/dawarazhar11/VLM-CADFeatureRecognition) — Vision-Language Models for Manufacturing
 > Automated manufacturing feature recognition in CAD designs using vision-language models — holes, pockets, slots, and complex geometry.
 
+```mermaid
+graph LR
+    A["CAD Model Input"] --> B["View Renderer"]
+    B --> C["Multi-Angle Captures"]
+    C --> D["Vision-Language Model"]
+    D --> E["Feature Classification"]
+    E --> F["Holes / Pockets / Slots"]
+    E --> G["Complex Geometry"]
+    F --> H["Feature Report"]
+    G --> H
+```
+
 > `Python` `VLMs` `Computer Vision` `Manufacturing` `Jupyter`
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
+
+## 🛒 Full-Stack Platforms
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
+
+### 🛒 Bolee — AI-First Classifieds Marketplace `MVP DELIVERED`
+> Dual-mode marketplace: **Talab Mode** (reverse marketplace — buyers post demand, sellers compete) and **Boli Mode** (real-time auction with entry fees). Event-driven Python backend for state management, real-time bid processing, and multi-party notifications. Trilingual NLP search (English, Urdu, Roman Urdu) with vector embeddings. AI fraud detection scoring every listing at submission. AI price enforcement anchored by real market data. Escrow-backed transactions with CNIC identity verification tiers.
+
+```mermaid
+graph LR
+    A["Buyer / Seller"] --> B["Next.js Frontend"]
+    B --> C["FastAPI Backend"]
+    C --> D{"Marketplace Engine"}
+    D --> E["Talab Mode"]
+    D --> F["Boli Mode"]
+    C --> G["Trilingual NLP Search"]
+    G --> H["Vector Embeddings"]
+    H --> I[("Vector DB")]
+    C --> J["AI Fraud Detector"]
+    C --> K["AI Price Enforcer"]
+    K --> L["Price Scraper Feed"]
+    C --> M[("PostgreSQL")]
+    C --> N[("Redis")]
+    C --> O["Escrow / Identity"]
+```
+
+> `Python` `FastAPI` `Next.js` `PostgreSQL` `Redis` `Vector DB` `OpenAI` `NLP` `Selenium` `Docker`
+
+---
+
+### 🎬 [ReelForge](https://github.com/dawarazhar11/ReelForge) — AI Short-Form Video Automation `95 COMMITS`
+> End-to-end automation: LLM-powered script segmentation into A-Roll/B-Roll → AI visual generation via ComfyUI (Flux, WAN, LoRA) or Replicate → HeyGen avatar talking-head video → FFmpeg assembly with audio sync → word-level animated captions → multi-platform publishing to **YouTube, TikTok, and Instagram**.
+
+```mermaid
+graph LR
+    A["Script Input"] --> B["LLM Segmentation"]
+    B --> C["A-Roll Scenes"]
+    B --> D["B-Roll Scenes"]
+    C --> E["HeyGen Avatar"]
+    D --> F["ComfyUI / Replicate"]
+    E --> G["FFmpeg Assembly"]
+    F --> G
+    G --> H["Audio Sync / TTS"]
+    H --> I["Animated Captions"]
+    I --> J["YouTube"]
+    I --> K["TikTok"]
+    I --> L["Instagram"]
+```
+
+> `Python` `Streamlit` `Ollama` `ComfyUI` `Replicate` `HeyGen API` `FFmpeg` `TTS`
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
+
+## ⚡ Automation & Scraping
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
+
+### 🕷️ [AI Product & Price Scraper](https://github.com/dawarazhar11/AI-Product-and-Price-Scrapper) — Production Data Feed `LIVE`
+> Dual-engine scraper: Selenium (legacy sites) + Playwright (modern JS). Proxy rotation, exponential backoff retry logic, structured logging. **Continuous unattended operation** feeding real-time pricing data into Bolee AI price enforcement.
+
+```mermaid
+graph LR
+    A["Target URLs"] --> B{"Engine Router"}
+    B --> C["Selenium - Legacy Sites"]
+    B --> D["Playwright - JS Pages"]
+    C --> E["Proxy Rotation"]
+    D --> E
+    E --> F["Data Extraction"]
+    F --> G["Validation / Cleaning"]
+    G --> H[("PostgreSQL")]
+    H --> I["Bolee Price Enforcer"]
+    F --> J["Retry / Backoff Logic"]
+    J --> E
+```
+
+> `Python` `Selenium` `Playwright` `BeautifulSoup` `PostgreSQL` `asyncio`
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
+
+## 🏭 Manufacturing AI & CAD
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
+
+### 🔧 [PartForge PLM](https://github.com/dawarazhar11/partforge-plm) — AI Part Number Management
+> Manufacturing part lifecycle management: standardized part numbers across OTS, Fabricated, and Assembly categories. Dual interface: interactive CLI + modern web UI with form validation and sequential numbering.
+
+```mermaid
+graph LR
+    A["Engineer Input"] --> B{"Interface"}
+    B --> C["Interactive CLI"]
+    B --> D["Next.js Web UI"]
+    C --> E["Part Classifier"]
+    D --> E
+    E --> F{"Category"}
+    F --> G["OTS Parts"]
+    F --> H["Fabricated Parts"]
+    F --> I["Assembly Parts"]
+    G --> J["Part Number Generator"]
+    H --> J
+    I --> J
+    J --> K["Validation / Zod"]
+    K --> L["Part Registry"]
+```
+
+> `Node.js` `Next.js 15` `React 19` `TypeScript` `Tailwind` `Zod`
+
+---
+
+### ✏️ [OhmFrame Drawer](https://github.com/dawarazhar11/ohmframe-drawer) — AI 2D Drawing Generator
+> AI-powered 2D engineering drawing generator from STEP files. Automatically produces manufacturing-ready drawings from 3D models.
+
+```mermaid
+graph LR
+    A["STEP File Upload"] --> B["3D Model Parser"]
+    B --> C["View Projection Engine"]
+    C --> D["Front / Top / Side Views"]
+    D --> E["AI Dimension Placement"]
+    E --> F["GD&T Annotation"]
+    F --> G["Manufacturing-Ready Drawing"]
+```
+
+> `TypeScript` `STEP Files` `CAD Automation` `AI`
+
+---
+
+### 🖥️ [OhmFrame Copilot](https://github.com/dawarazhar11/ohmframe-copilot) — Desktop Engineering AI
+> Desktop co-pilot: screen capture → engineering context understanding → AI-powered analysis and recommendations. Built with Tauri + Rust + TypeScript.
+
+```mermaid
+graph LR
+    A["Screen Capture"] --> B["Image Processing"]
+    B --> C["Context Extraction"]
+    C --> D["Claude API"]
+    D --> E["Engineering Analysis"]
+    E --> F["Recommendations"]
+    F --> G["Tauri Desktop UI"]
+    G --> H["Overlay Display"]
+```
+
+> `Tauri` `Rust` `TypeScript` `Claude API` `Screen Capture` `Computer Vision`
 
 ---
 
 ### 🐳 [Blender Docker Headless](https://github.com/dawarazhar11/blender-docker-headless) — GPU Render Farm
 > Blender 5.0 headless Docker image with NVIDIA GPU (CUDA 12.4) support for automated rendering pipelines and render farms.
 
+```mermaid
+graph LR
+    A["Render Job Queue"] --> B["Docker Container"]
+    B --> C["Blender 5.0 Headless"]
+    C --> D["CUDA 12.4 / GPU"]
+    D --> E["Scene Rendering"]
+    E --> F["Output Frames"]
+    F --> G["S3 / Storage"]
+    A --> H["Job Scheduler"]
+    H --> B
+```
+
 > `Python` `Docker` `Blender` `CUDA` `GPU Rendering`
 
 ---
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
+
+## 📊 Data Engineering
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
 
 ### ⚡ Enterprise Data Pipelines
 > Scalable ETL/ELT architectures with automated scheduling, data validation, monitoring, and alerting.
@@ -387,6 +534,10 @@ graph LR
 <br/><br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=dawarazhar11&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" height="170"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dawarazhar11&theme=tokyo-night&hide_border=true&bg_color=0D1117" alt="Contribution Graph" width="100%"/>
 
 </div>
 
@@ -437,6 +588,8 @@ University of Engineering and Technology (UET), Lahore · 2018
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=6C63FF&height=2&section=header" width="100%" />
+
 ### 💼 Open to Opportunities
 
 **I'm actively looking for roles in AI Engineering, Python Development, and Automation.**
@@ -455,5 +608,7 @@ If you're building something ambitious with Python, LLMs, or automation — let'
 <br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=dawarazhar11&color=6C63FF&style=flat-square&label=Profile+Views)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=100&section=footer" width="100%" />
 
 </div>
