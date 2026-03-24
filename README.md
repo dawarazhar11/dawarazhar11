@@ -269,9 +269,9 @@ graph LR
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=dawarazhar11&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117" alt="GitHub Stats" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=dawarazhar11&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&cache_seconds=1800" alt="GitHub Stats" height="170"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dawarazhar11&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dawarazhar11&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&cache_seconds=1800" alt="Top Languages" height="170"/>
 
 <br/><br/>
 
